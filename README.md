@@ -769,3 +769,74 @@ Conversely, the ``.pop()`` method removes and returns the last element of an arr
     - ``.shift()``
     - ``.pop()``
 - Confirming if a given element or value exists in an array with the ``.includes()`` and ``.indexOf()`` methods.
+
+## Functions
+
+[29_Greetings.js]()
+
+- Functions are blocks of code that we write once and can use later on in our programs
+- Used in separating tasks into smaller chunks that can be executed multiple times via the function name
+
+```ruby
+    function helloWorld() {
+        console.log("Hello, World!");
+    }
+
+    helloWorld();
+```
+
+### Function Syntax
+
+[30_BlastOff.js]()
+
+- ``function`` keyword to define a function with a name and then a set of parentheses
+
+```ruby
+    function myFunction() {
+        // Code here
+    }
+
+    myFunction();
+
+    console.log(helloWorld()); // Output: Hello, World! 🌎
+```
+
+## Parameters
+
+[31_Example1.js]()
+[31_Example2.ja]()
+
+- When defining a function, you can add one or more parameters inside the parentheses to signify what input(s) the function needs when called
+
+```ruby
+    function example(parameter) {
+        // Function code here
+    }
+```
+
+Example 
+
+```ruby
+    function greetings(name) {
+        console.log("Hi! My name is " + name + ".");
+    }
+
+    greetings("Marshall");
+```
+
+## Arguments
+
+[31_Example3.js]()
+
+- When calling a function, we call these values arguments that are passed to the function to return something
+
+```ruby
+    greetings("Cody");
+```
+
+**Note**: If we do not pass an argument, an undefined value is used instead. (e.g., Hi! My name is undefined.)
+
+**Recap**:
+- Parameters are used when defining a function.
+- Arguments are used when calling a function.
+
