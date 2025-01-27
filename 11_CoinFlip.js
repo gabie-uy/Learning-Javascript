@@ -7,3 +7,6 @@ if (num > 0.5) {
 } else {
   console.log("Tails");
 }
+
+// Bonus Solution from Bonus Article
+// num > 0.5 ? console.log("Heads") : console.log("Tails");
